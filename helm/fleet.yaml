@@ -20,7 +20,7 @@ targetCustomizations:
   helm:
     values:
       serviceType: LoadBalancer
-      replicas: 4
+      replicas: 3
   clusterSelector:
     matchLabels:
       env: prod
